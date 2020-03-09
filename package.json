@@ -1,0 +1,33 @@
+{
+  "name": "knex-on-conflict-do-nothing",
+  "version": "1.0.0",
+  "description": "Knex extension to insert on conflict do nothing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/askarzh/knex-on-conflict-do-nothing.git"
+  },
+  "keywords": [
+    "knex",
+    "pg",
+    "insert",
+    "conflict",
+    "nothing"
+  ],
+  "author": "Askar Zhakenov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/askarzh/knex-on-conflict-do-nothing/issues"
+  },
+  "homepage": "https://github.com/askarzh/knex-on-conflict-do-nothing#readme",
+  "peerDependencies": {
+    "knex": "*"
+  },
+  "devDependencies": {
+    "knex": "latest",
+    "pg": "latest"
+  }
+}
